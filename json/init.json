@@ -1,0 +1,1064 @@
+{
+
+  "type":"init",
+
+
+  "count":1,
+
+  "list":
+
+  [
+
+    {
+
+      "name":"list1",
+
+      "guid":"ba392df3",
+
+      "list_size":
+
+      {
+
+        "lines":5,
+
+        "width":300
+
+      },
+
+      "position":
+
+      {
+
+        "left":500,
+
+        "top":100
+
+      },
+
+      "bg":
+
+      {
+
+        "show":true,
+
+        "background-color":"rgba(22,255,220,1)"
+
+      },
+
+      "frame":
+
+      {
+
+        "is_frame":true,
+
+        "border-color":"rgba(255,255,255,1)",
+
+        "border-width":5,
+
+        "is_round":true
+
+      },
+
+      "bar_bg":
+
+      {
+
+        "is_bar_bg":true,
+
+        "background-color":"rgba(255,255,255,1)"
+
+      },
+
+      "bar_frame":
+
+      {
+
+        "is_bar_frame":true,
+
+        "border-color":"rgba(255,255,255,1)",
+
+        "border-width":5,
+
+        "is_bar_round":false
+
+      },
+
+      "bar_anim":
+
+      {
+
+        "is_bar_anim":true,
+
+        "speed":5
+
+      },
+
+
+      "info_room":
+
+      {
+
+        "is_room":true,
+
+        "font-family":"Microsoft  YaHei",
+
+        "font-size":12,
+
+        "font-style":"italic",
+
+        "font-weight":"bold",
+
+        "color":"rgba(255,255,255,1)",
+
+        "is_room_numdetail":false,
+
+        "is_numfans":true,
+
+        "is_numfollow":true,
+
+        "is_numgift":true,
+
+        "is_guard":false,
+
+        "is_lord":false,
+
+        "is_fans":false,
+
+        "is_room_others":false
+
+      },
+
+      "info_obs":
+
+      {
+
+        "is_obs":true,
+
+        "font-family":"Microsoft  YaHei",
+
+        "font-size":12,
+
+        "font-style":"italic",
+
+        "font-weight":"bold",
+
+        "normal":
+
+        {
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "warning":
+
+        {
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "is_frameloss":true,
+
+        "is_fps":true,
+
+        "is_bitrate":true
+
+      },
+
+      "info_pc":
+
+      {
+
+        "is_pc":true,
+
+        "font-family":"Microsoft  YaHei",
+
+        "font-size":12,
+
+        "font-style":"italic",
+
+        "font-weight":"bold",
+
+        "normal":
+
+        {
+
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "warning":
+
+        {
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "is_cpurate":true,
+
+        "is_memoryrate":true
+
+      },
+
+      "info_xhl":
+
+      {
+
+        "is_xhl":true,
+
+        "font-family":"Microsoft  YaHei",
+
+        "font-size":12,
+
+        "font-style":"italic",
+
+        "font-weight":"bold",
+
+        "color":"rgba(255,255,255,1)",
+
+        "is_xhl_startsecond":false,
+
+        "is_xhl_stampnow":false,
+
+        "is_xhl_numdanmu":false,
+
+        "is_xhl_numgift":false,
+
+        "is_xhl_newfollow":false,
+
+        "is_xhl_numspeaker":false,
+
+        "is_xhl_top":false
+
+      },
+
+      "dm_fans":
+
+      {
+
+        "show_fans":true,
+
+        "font-family":"Microsoft  YaHei",
+
+        "font-size":12,
+
+        "font-style":"italic",
+
+        "font-weight":"bold",
+
+        "role":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "fans_name":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "content":
+
+        {
+
+          "show":true,
+
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "level":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "fans_icon":
+
+        {
+
+          "show":true
+
+        },
+
+        "rorank":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "ralord":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "vip":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "sendt":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "fans_format":"$user$:$data$"
+
+      },
+
+      "dm_anchor":
+
+      {
+
+        "show_anchor":true,
+
+        "font-family":"Microsoft  YaHei",
+
+        "font-size":12,
+
+        "font-style":"italic",
+
+        "font-weight":"bold",
+
+        "role":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+
+        "anchor_name":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "content":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "time":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "anchor_format":"$user$:$data$"
+
+      },
+
+      "dm_super":
+
+      {
+
+        "show_super":true,
+
+        "font-family":"Microsoft  YaHei",
+
+        "font-size":12,
+
+        "font-style":"italic",
+
+        "font-weight":"bold",
+
+        "role":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "super_name":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "content":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "time":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "super_format":"$user$:$data$"
+
+
+      },
+
+      "dm_rm":
+
+      {
+
+        "show_rm":true,
+
+        "font-family":"Microsoft  YaHei",
+
+        "font-size":12,
+
+        "font-style":"italic",
+
+        "font-weight":"bold",
+
+        "role":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "rm_name":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "content":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "time":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "rm_format":"$user$:$data$"
+
+      },
+
+      "gift_free":
+
+      {
+
+        "font-family":"Microsoft  YaHei",
+
+        "font-size":12,
+
+        "font-style":"italic",
+
+        "font-weight":"bold",
+
+        "gift_name":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "gift_number":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+
+        },
+
+        "gift_combo":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "user_name":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "level":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "rank":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "rorank":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "ralord":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "vip":
+
+        {
+
+          "show":false,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "time":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "free_format":"$user$赠送了$number$个$nickname$"
+
+      },
+
+      "gift_pay":
+
+      {
+
+
+        "font-family":"Microsoft  YaHei",
+
+        "font-size":12,
+
+        "font-style":"italic",
+
+        "font-weight":"bold",
+
+        "gift_name":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "gift_number":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "gift_combo":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "user_name":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "level":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "rank":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "rorank":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "ralord":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "vip":
+
+
+        {
+
+          "show":false,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "time":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "pay_format":"$user$赠送了$number$个付费$nickname$"
+
+      },
+
+      "join_n":
+
+      {
+
+        "font-family":"Microsoft  YaHei",
+
+        "font-size":12,
+
+        "font-style":"italic",
+
+        "font-weight":"bold",
+
+        "role":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "user_name":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "vehicle":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "action":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "level":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "rank":
+
+        {
+
+          "show":true,
+
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "rorank":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "ralord":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "vip":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "time":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "join_format":"欢迎观众$user$进入房间"
+
+      },
+
+      "join_super":
+
+      {
+
+        "font-family":"Microsoft  YaHei",
+
+        "font-size":12,
+
+        "font-style":"italic",
+
+        "font-weight":"bold",
+
+        "role":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "user_name":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "time":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "join_super_format":"欢迎$user$进入房间"
+
+      },
+
+      "follow":
+
+      {
+
+        "font-family":"Microsoft  YaHei",
+
+        "font-size":12,
+
+        "font-style":"italic",
+
+        "font-weight":"bold",
+
+        "role":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "user_name":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "level":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "rank":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "rorank":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "rolord":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "vip":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "time":
+
+        {
+
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "follow_format":"感谢$user$的关注"
+
+      },
+
+      "notice":
+
+      {
+
+        "font-family":"Microsoft  YaHei",
+
+        "font-size":14,
+
+        "font-style":"italic",
+
+        "font-weight":"bold",
+
+        "notice":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "err":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        },
+
+        "warning":
+
+        {
+
+          "show":true,
+
+          "color":"rgba(255,255,255,1)"
+
+        }
+
+      }
+
+    }
+
+  ]
+
+}

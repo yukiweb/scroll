@@ -1,0 +1,43 @@
+{
+
+	"type":"follow",
+
+	"data":
+
+	{
+
+		"user_name":"小明",
+
+		"user_role":"观众",
+
+		"user_level":"[黄金]",
+
+		"user_vip":"[VIP6]",
+
+		"user_rorank":"[猴子]",
+
+		"user_ralord":"[爱豆粉]",
+
+		"follow_time":"[2017-09-12]"
+
+	},
+
+	"update":
+
+	{
+
+		"count":2,
+
+		"list":
+
+		[
+
+			"ba392df3",
+
+			"b46b82e2"
+
+		]
+
+	}
+
+}

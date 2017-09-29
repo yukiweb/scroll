@@ -1,0 +1,58 @@
+{
+
+	"type":"gift",
+
+	"data":
+
+	{
+
+		"user_name":"小明",
+
+		"user_icon":"http://www.obsapp.com/wp-content/themes/zerif-lite/images/map25-redish.png",
+
+		"user_role":"观众",
+
+		"user_level":"[黄金]",
+
+		"user_rorank":"[猴子]",
+
+		"user_ralord":"[爱豆粉]",
+
+		"user_vip":"[VIP6]",
+
+		"send_time":"[2017-09-12]",
+
+		"gift_id":"123",
+
+		"gift_name":"火箭",
+
+		"gift_number":10,
+
+		"gift_combo":3,
+
+		"price":1000,
+
+		"is_free":false
+
+	},
+
+	"update":
+
+	{
+
+		"count":2,
+
+		"list":
+
+		[
+
+			"ba392df3",
+
+
+			"b46b82e2"
+
+		]
+
+	}
+
+}

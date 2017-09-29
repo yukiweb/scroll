@@ -30,10 +30,46 @@
 </script>
 <!--列表框-->
 <!--弹幕模板-->
+<script type="text/html" id="danmuFansTemplate">
+    <table><tbody>
+    <tr>
+        <td class="td5">
+            {{each initData.list[0].dm_fans.fans_format.replace(/user/,danmuData.data.user_name).replace(/data/,danmuData.data.content).split(/\$/).slice(1) as value}}
+            <span>{{value}}</span>
+            {{/each}}
+        </td>
+    </tr>
+    </tbody></table>
+</script>
+<script type="text/html" id="danmuAnchorTemplate">
+    <table><tbody>
+    <tr>
+        <td class="td5">
+            {{each initData.list[0].dm_anchor.anchor_format.replace(/user/,danmuData.data.user_name).replace(/data/,danmuData.data.content).split(/\$/).slice(1) as value}}
+            <span>{{value}}</span>
+            {{/each}}
+        </td>
+    </tr>
+    </tbody></table>
+</script>
+<script type="text/html" id="danmuSuperTemplate">
+    <table><tbody>
+    <tr>
+        <td class="td5">
+            {{each initData.list[0].dm_super.super_format.replace(/user/,danmuData.data.user_name).replace(/data/,danmuData.data.content).split(/\$/).slice(1) as value}}
+            <span>{{value}}</span>
+            {{/each}}
+        </td>
+    </tr>
+    </tbody></table>
+</script>
 <script type="text/html" id="danmuRoomTemplate">
     <table><tbody>
     <tr>
         <td class="td5">
+            {{each initData.list[0].dm_rm.rm_format.replace(/user/,danmuData.data.user_name).replace(/data/,danmuData.data.content).split(/\$/).slice(1) as value}}
+            <span>{{value}}</span>
+            {{/each}}
         </td>
     </tr>
     </tbody></table>
@@ -88,7 +124,9 @@
     <table><tbody>
     <tr>
     <td class="td5">
-     {{#initData.list[0].follow.follow_format}}
+        {{each initData.list[0].follow.follow_format.replace(/user/,followData.data.user_name).split(/\$/).slice(1) as value}}
+        <span>{{value}}</span>
+        {{/each}}
     </td>
     </tr>
     </tbody></table>

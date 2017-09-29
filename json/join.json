@@ -1,0 +1,49 @@
+{
+
+	"type":"join",
+
+	"data":
+
+	{
+
+		"user_name":"小明",
+
+		"user_role":"观众",
+
+		"user_role":"观众",
+
+		"vehicle":"拖拉机",
+
+		"action":"一路狂奔",
+
+		"user_level":"[黄金]",
+
+		"user_rorank":"[猴子]",
+
+		"user_ralord":"[爱豆粉]",
+
+		"user_vip":"[VIP6]",
+
+		"join_time":"[2017-09-12]"
+
+	},
+
+	"update":
+
+	{
+
+		"count":2,
+
+		"list":
+
+		[
+
+			"ba392df3",
+
+			"b46b82e2"
+
+		]
+
+	}
+
+}

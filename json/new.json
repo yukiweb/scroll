@@ -1,0 +1,740 @@
+{
+
+  "type":"init",
+
+  "count":1,
+
+  "list":
+
+  [
+
+    {
+
+      "name":"list1",
+
+      "guid":"ba392df3",
+
+      "position":
+
+      {
+
+        "left":"10",
+
+        "top":"10",
+
+        "lines":"10",
+
+        "width":"300"
+
+      },
+
+      "bg":
+
+      {
+
+        "is_true":true,
+
+        "background-color":"102,153,153,255",
+
+        "opacity":"80"
+
+      },
+
+      "frame":
+
+      {
+
+        "is_frame":true,
+
+        "backgroundColor":"153,153,51,255",
+
+        "border-width":3,
+
+        "is_round":true
+
+      },
+
+      "bar_bg":
+
+      {
+
+        "is_bar_bg":true,
+
+        "bar_bg":"153,204,51",
+
+        "bar_bg_a":"255",
+
+        "bar_opaqueness":80
+
+      },
+
+      "bar_frame":
+
+      {
+
+        "is_bar_frame":true,
+
+        "bar_frame_bg":"153,153,51",
+        "bar_frame_bg_a":"255",
+
+        "bar_thick":3,
+
+        "is_bar_round":true
+
+      },
+
+      "bar_anim":
+
+      {
+
+        "is_bar_anim":true,
+
+        "speed":5
+
+      },
+
+      "info_room":
+
+      {
+
+        "is_room":true,
+
+        "room_font":"Microsoft  YaHei",
+
+        "room_fontsize":12,
+
+        "room_fontstyle":"Bold",
+
+        "room_fore":"255,255,255",
+
+        "room_fore_a":"255",
+
+        "is_room_numdetail":false,
+
+        "is_numfans":true,
+
+        "is_numfollow":true,
+
+        "is_numgift":true,
+
+        "is_guard":false,
+
+        "is_lord":false,
+
+        "is_fans":false,
+
+        "is_room_others":false
+
+      },
+
+      "info_obs":
+
+      {
+
+        "is_obs":true,
+
+        "obs_font":"Microsoft  YaHei",
+
+        "obs_fontsize":12,
+
+        "obs_fontstyle":"Bold",
+
+        "obs_fore":"255,255,255",
+
+        "obs_fore_a":"255",
+
+        "obs_warning_fore":"255,255,255",
+
+        "obs_warning_fore_a":"255",
+
+        "is_frameloss":true,
+
+        "is_fps":true,
+
+        "is_bitrate":true
+
+      },
+
+      "info_pc":
+
+      {
+
+        "is_pc":true,
+
+        "pc_font":"Microsoft  YaHei",
+
+        "pc_fontsize":12,
+        "pc_fontstyle":"Bold",
+
+        "pc_fore":"255,255,255",
+
+        "pc_fore_a":"255",
+
+        "pc_warning_fore":"255,255,255",
+
+        "pc_warning_fore_a":"255",
+
+        "is_cpurate":true,
+
+        "is_memoryrate":true
+
+      },
+
+      "info_xhl":
+
+      {
+
+        "is_xhl":true,
+
+        "xhl_font":"Microsoft  YaHei",
+
+        "xhl_fontsize":12,
+
+        "xhl_fontstyle":"Bold",
+
+        "xhl_fore":"255,255,255",
+
+        "xhl_fore_a":"255",
+
+        "is_xhl_startsecond":false,
+
+        "is_xhl_stampnow":false,
+
+        "is_xhl_numdanmu":false,
+
+        "is_xhl_numgift":false,
+
+        "is_xhl_newfollow":false,
+
+        "is_xhl_numspeaker":false,
+
+        "is_xhl_top":false
+
+      },
+
+      "dm_fans":
+
+      {
+
+        "show_fans":true,
+
+        "fans_dm_font":"宋体",
+
+        "fans_dm_fontsize":12,
+
+        "fans_dm_fontstyle":"Bold",
+
+        "is_fans_role":true,
+
+        "fans_role_fore":"255,255,255",
+
+        "fans_role_fore_a":"255",
+
+        "is_fans_name":true,
+
+        "fans_name_fore":"255,255,255",
+
+        "fans_name_fore_a":"255",
+
+        "is_fans_cont":true,
+
+        "fans_cont_fore":"255,255,255",
+
+        "fans_cont_fore_a":"255",
+
+        "is_fans_level":true,
+
+        "fans_level_fore":"255,255,255",
+
+        "fans_level_fore_a":"255",
+
+        "is_fans_icon":true,
+
+        "is_fans_rorank":true,
+
+        "fans_rorank_fore":"255,255,255",
+        "fans_rorank_fore_a":"255",
+
+        "is_fans_ralord":true,
+
+        "fans_ralord_fore":"255,255,255",
+
+        "fans_ralord_fore_a":"255",
+
+        "is_fans_vip":true,
+
+        "fans_vip_fore":"255,255,255",
+
+        "fans_vip_fore_a":"255",
+
+        "is_fans_sendt":true,
+
+        "fans_sendt_fore":"255,255,255",
+
+        "fans_sendt_fore_a":"255",
+
+        "fans_format":"$user$:$data$"
+
+      },
+
+      "dm_anchor":
+
+      {
+
+        "show_anchor":true,
+
+        "anchor_dm_font":"宋体",
+
+        "anchor_dm_fontsize":12,
+
+        "anchor_dm_fontstyle":"Bold",
+
+        "is_anchor_role":true,
+
+        "anchor_role_fore":"255,255,255",
+
+        "anchor_role_fore_a":"255",
+
+        "is_anchor_name":true,
+
+        "anchor_name_fore":"255,255,255",
+
+        "anchor_name_fore_a":"255",
+
+        "is_anchor_cont":true,
+
+        "anchor_cont_fore":"255,255,255",
+
+        "anchor_cont_fore_a":"255",
+
+        "is_anchor_time":true,
+
+        "anchor_time_fore":"255,255,255",
+
+        "anchor_time_fore_a":"255",
+
+        "anchor_format":"$user$:$data$"
+
+      },
+
+      "dm_super":
+
+      {
+
+        "show_super":true,
+
+        "super_dm_font":"宋体",
+
+        "super_dm_fontsize":12,
+
+        "super_dm_fontstyle":"Bold",
+
+        "is_super_role":true,
+
+        "super_role_fore":"255,255,255",
+
+        "super_role_fore_a":"255",
+
+        "is_super_name":true,
+
+        "super_name_fore":"255,255,255",
+
+        "super_name_fore_a":"255",
+
+        "is_super_cont":true,
+        "super_cont_fore":"255,255,255",
+
+        "super_cont_fore_a":"255",
+
+        "is_super_time":true,
+
+        "super_time_fore":"255,255,255",
+
+        "super_time_fore_a":"255",
+
+        "super_format":"$user$:$data$"
+
+      },
+
+      "dm_rm":
+
+      {
+
+        "show_rm":true,
+
+        "rm_dm_font":"宋体",
+
+        "rm_dm_fontsize":12,
+
+        "rm_dm_fontstyle":"Bold",
+
+        "is_rm_role":true,
+
+        "rm_role_fore":"255,255,255",
+
+        "rm_role_fore_a":"255",
+
+        "is_rm_name":true,
+
+        "rm_name_fore":"255,255,255",
+
+        "rm_name_fore_a":"255",
+
+        "is_rm_cont":true,
+
+        "rm_cont_fore":"255,255,255",
+
+        "rm_cont_fore_a":"255",
+
+        "is_rm_time":true,
+
+        "rm_time_fore":"255,255,255",
+
+        "rm_time_fore_a":"255",
+
+        "rm_format":"$user$:$data$"
+
+      },
+
+      "gift_free":
+
+      {
+
+        "free_font":"Microsoft  YaHei",
+
+        "free_fontsize":12,
+
+        "free_fontstyle":"Bold",
+
+        "is_free_name":true,
+
+        "free_name_fore":"255,255,255",
+
+        "free_name_fore_a":"255",
+
+        "is_free_number":true,
+
+        "free_number_fore":"255,255,255",
+
+        "free_number_fore_a":"255",
+
+        "is_free_combo":true,
+
+        "free_combo_fore":"255,255,255",
+
+        "free_combo_fore_a":"255",
+
+        "is_free_user":true,
+
+        "free_user_fore":"255,255,255",
+
+        "free_user_fore_a":"255",
+
+        "is_free_level":true,
+        "free_level_fore":"255,255,255",
+
+        "free_level_fore_a":",255",
+
+        "is_free_rank":false,
+
+        "free_rank_fore":"255,255,255",
+
+        "free_rank_fore_a":"255",
+
+        "is_free_rorank":false,
+
+        "free_rorank_fore":"255,255,255",
+
+        "free_rorank_fore_a":"255",
+
+        "is_free_ralord":false,
+
+        "free_ralord_fore":"255,255,255",
+
+        "free_ralord_fore_a":"255",
+
+        "is_free_vip":false,
+
+        "free_vip_fore":"255,255,255",
+
+        "free_vip_fore_a":"255",
+
+        "is_free_time":false,
+
+        "free_time_fore":"255,255,255",
+
+        "free_time_fore_a":"255",
+
+        "free_format":"$user$赠送了$number$个$nickname$"
+
+      },
+
+      "gift_pay":
+
+      {
+
+        "pay_font":"Microsoft  YaHei",
+
+        "pay_fontsize":12,
+
+        "pay_fontstyle":"Bold",
+
+        "is_pay_name":true,
+
+        "pay_name_fore":"255,255,255",
+
+        "pay_name_fore_a":"255",
+
+        "is_pay_number":true,
+
+        "pay_number_fore":"255,255,255",
+
+        "pay_number_fore_a":"255",
+
+        "is_pay_combo":true,
+
+        "pay_combo_fore":"255,255,255",
+
+        "pay_combo_fore_a":"255",
+
+        "is_pay_user":true,
+
+        "pay_user_fore":"255,255,255",
+
+        "pay_user_fore_a":"255",
+
+        "is_pay_level":true,
+
+        "pay_level_fore":"255,255,255",
+
+        "pay_level_fore_a":",255",
+
+        "is_pay_rank":false,
+
+        "pay_rank_fore":"255,255,255",
+
+        "pay_rank_fore_a":"255",
+
+        "is_pay_rorank":false,
+
+        "pay_rorank_fore":"255,255,255",
+
+        "pay_rorank_fore_a":"255",
+        "is_pay_ralord":false,
+
+        "pay_ralord_fore":"255,255,255",
+
+        "pay_ralord_fore_a":"255",
+
+        "is_pay_vip":false,
+
+        "pay_vip_fore":"255,255,255",
+
+        "pay_vip_fore_a":"255",
+
+        "is_pay_time":false,
+
+        "pay_time_fore":"255,255,255",
+
+        "pay_time_fore_a":"255",
+
+        "pay_format":"$user$赠送了$number$个$nickname$"
+
+      },
+
+      "join_n":
+
+      {
+
+        "join_font":"Microsoft  YaHei",
+
+        "join_fontsize":12,
+
+        "is_join_role":true,
+
+        "join_role_fore":"255,255,255",
+
+        "join_role_fore_a":"255",
+
+        "is_join_name":true,
+
+        "join_name_fore":"255,255,255",
+
+        "join_name_fore_a":"255",
+
+        "is_vehicle":true,
+
+        "vehicle_fore":"255,255,255",
+
+        "vehicle_fore_a":"255",
+
+        "is_join_act":true,
+
+        "join_act_fore":"255,255,255",
+
+        "join_act_fore_a":"255",
+
+        "is_join_level":true,
+
+        "join_level_fore":"255,255,255",
+
+        "join_level_fore_a":"255",
+
+        "is_join_rank":true,
+
+        "join_rank_fore":"255,255,255",
+
+        "join_rank_fore_a":"255",
+
+        "is_join_rorank":true,
+
+        "join_rorank_fore":"255,255,255",
+
+        "join_rorank_fore_a":"255",
+
+        "is_join_ralord":true,
+
+        "join_ralord_fore":"255,255,255",
+
+        "join_ralord_fore_a":"255",
+
+        "is_join_vip":true,
+
+        "join_vip_fore":"255,255,255",
+
+        "join_vip_fore_a":"255",
+
+        "is_join_time":true,
+
+        "join_time_fore":"255,255,255",
+
+        "join_time_fore_a":"255",
+        "join_format":"欢迎$user$进入房间"
+
+      },
+
+      "join_super":
+
+      {
+
+        "join_super_font":"Microsoft  YaHei",
+
+        "join_super_fontsize":12,
+
+        "join_super_fontstyle":"Bold",
+
+        "is_join_role":true,
+
+        "is_join_superole":true,
+
+        "join_superole_fore":"255,255,255",
+
+        "join_superole_fore_a":"255",
+
+        "is_join_superuser":true,
+
+        "join_superuser_fore":"255,255,255",
+
+        "join_superuser_fore_a":"255",
+
+        "join_super_format":"欢迎$user$进入房间"
+
+      },
+
+      "follow":
+
+      {
+
+        "follow_font":"Microsoft  YaHei",
+
+        "follow_fontsize":12,
+
+        "follow_fontstyle":"Bold",
+
+        "is_follow_role":true,
+
+        "follow_role_fore":"255,255,255",
+
+        "follow_role_fore_a":"255",
+
+        "is_follow_user":true,
+
+        "follow_user_fore":"255,255,255",
+
+        "follow_user_fore_a":"255",
+
+        "is_follow_level":true,
+
+        "follow_level_fore":"255,255,255",
+
+        "follow_level_fore_a":"255",
+
+        "is_follow_rank":true,
+
+        "follow_rank_fore":"255,255,255",
+
+        "follow_rank_fore_a":"255",
+
+        "is_follow_rorank":true,
+
+        "follow_rorank_fore":"255,255,255",
+
+        "follow_rorank_fore_a":"255",
+
+        "is_follow_ralord":true,
+
+        "follow_ralord_fore":"255,255,255",
+
+        "follow_ralord_fore_a":"255",
+
+        "is_follow_vip":true,
+
+        "follow_vip_fore":"255,255,255",
+
+        "follow_vip_fore_a":"255",
+
+        "is_follow_time":true,
+
+        "follow_time_fore":"255,255,255",
+
+        "follow_time_fore_a":"255",
+        "follow_format":"感谢$user$的关注"
+
+      },
+
+      "notice":
+
+      {
+
+        "notice_font":"Microsoft  YaHei",
+
+        "notice_fontsize":14,
+
+        "notice_fontstyle":"Bold",
+
+        "is_notice_info":true,
+
+        "notice_info_fore":"255,255,255",
+
+        "notice_info_fore_a":"255",
+
+        "is_notice_err":true,
+
+        "notice_err_fore":"255,255,255",
+
+        "notice_err_fore_a":"255",
+
+        "is_notice_warning":true,
+
+        "notice_warning_fore":"255,255,255",
+
+        "notice_warning_fore_a":"255"
+
+      }
+
+    }
+
+  ]
+
+}
+

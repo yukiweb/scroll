@@ -1,0 +1,42 @@
+{
+
+	"type":"danmu",
+
+	"data":
+
+	{
+
+
+		"user_icon":"",
+
+		"user_role":"房管",
+
+
+		"user_vip":"",
+		"user_name":"小明",
+
+		"send_time":"",
+
+		"content":"6666666666"
+
+	},
+
+	"update":
+
+	{
+
+		"count":2,
+
+		"list":
+
+		[
+
+			"ba392df3",
+
+			"b46b82e2"
+
+		]
+
+	}
+
+}
