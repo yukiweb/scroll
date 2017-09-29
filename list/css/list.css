@@ -1,0 +1,192 @@
+.hello{
+    width: 20px;
+    height: 20px;
+}
+body{
+    background:#2F2F2F;
+    position: relative;
+}
+.list_bg{
+    width: 400px;
+    border-radius: 5px;
+    border:2px solid #253A7C;
+    background-color: rgba(1,26,56,0.8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.list_content{
+    margin:10px;
+}
+table{
+    margin:0 0 5px 0;
+}
+.line{
+    border-bottom:1px solid #023675;
+    margin:0 0 5px 0;
+}
+.info_row table{
+    width:100%;
+}
+/*信息栏-字体样式*/
+.info_row .td5 span{
+    font-size:12px;
+    font-weight: normal;
+    font-family: 'Microsoft YaHei';
+}
+/*信息栏-字体颜色*/
+.info_row .room{ /*房间*/
+    color:#E7D069;
+}
+.info_row .obs{ /*OBS信息*/
+    color:#69E780;
+}
+.info_row .pc{ /*PC信息*/
+    color:#BA6FE4;
+}
+.info_row .calabash{ /*小葫芦*/
+    color:#BF85ED;
+}
+/*弹幕-字体样式*/
+.danmu_row{
+    border-color: #2F2F2F;
+    border-width: 3px;
+    border-radius: 5px;
+}
+.danmu_row .td5 span{
+    font-size:12px;
+    font-weight: normal;
+    font-family: 'Microsoft YaHei';
+}
+/*弹幕-字体颜色*/
+.danmu_row .role{ /*角色*/
+    color:#E7D069;
+}
+.danmu_row .username{ /*用户名*/
+    color:#69E780;
+}
+.danmu_row .message{ /*弹幕内容*/
+    color:#BA6FE4;
+}
+/*礼物-字体样式*/
+.gift_row .td5 span{
+    font-size:14px;
+    font-weight: normal;
+    font-family: 'Microsoft YaHei';
+}
+/*礼物-字体颜色*/
+.gift_row .role{ /*角色*/
+    color:#BA6FE4;
+}
+.gift_row .username{ /*用户名*/
+    color:#69E780;
+}
+.gift_row .give{ /*赠送*/
+    color:#51D1DC;
+}
+.gift_row .sum{ /*数量*/
+    color:#C593DC;
+}
+.gift_row .giftname{ /*礼物名称*/
+    color:#D3DC09;
+}
+.gift_row .combo{ /*连击*/
+    color:#D6D6D6;
+}
+/*进入房间-字体样式*/
+.join_row .td5 span{
+    font-size:12px;
+    font-weight: normal;
+    font-family: 'Microsoft YaHei';
+}
+/*进入房间-字体颜色*/
+.join_row .role{ /*角色*/
+    color:#BA6FE4;
+}
+.join_row .username{ /*用户名*/
+    color:#69E780;
+}
+.join_row .action{ /*动作*/
+    color:#51D1DC;
+}
+.join_row .horse{ /*坐骑*/
+    color:#DC8F09;
+}
+.join_row .content{ /*内容*/
+    color:#D6D6D6;
+}
+/*关注-字体样式*/
+.follow_row .td5 span{
+    font-size:14px;
+    font-weight: normal;
+    font-family: 'Microsoft YaHei';
+}
+/*关注-字体颜色*/
+.follow_row .role{ /*角色*/
+    color:#BA6FE4;
+}
+.follow_row .username{ /*用户名*/
+    color:#69E780;
+}
+.follow_row .content{ /*内容*/
+    color:#D6D6D6;
+}
+/*弹幕助手通知-字体样式*/
+.notice_row .td5 span{
+    font-size:14px;
+    font-weight: normal;
+    font-family: 'Microsoft YaHei';
+}
+/*弹幕助手通知-字体颜色*/
+.notice_row .role{ /*角色*/
+    color:#BA6FE4;
+}
+.notice_row .content{ /*内容*/
+    color:#D6D6D6;
+}
+/* 皮肤 */
+.row_skin .td1{
+    background: url("../../images/a_01.png") no-repeat;
+    width: 18px;
+    height: 15px;
+}
+.row_skin .td2{
+    background: url("../../images/a_01.png") repeat-x;
+    width: auto;
+    height: 15px;
+}
+.row_skin .td3{
+    background: url("../../images/a_01.png") no-repeat;
+    width: 14px;
+    height: 15px;
+}
+.row_skin .td4{
+    background: url("../../images/a_01.png") repeat-y;
+    width: 18px;
+    height: auto;
+}
+.row_skin .td5{
+    background: #6F1418;
+    width: auto;
+    height: auto;
+}
+.row_skin .td6{
+    background: url("../../images/a_01.png") repeat-y;
+    width: 14px;
+    height: auto;
+}
+.row_skin .td7{
+    background: url("../../images/a_01.png") no-repeat;
+    width: 18px;
+    height: 16px;
+}
+.row_skin .td8{
+    background: url("../../images/a_01.png") repeat-x;
+    width: auto;
+    height: 16px;
+}
+.row_skin .td9{
+    background: url("../../images/a_01.png") no-repeat;
+    width: 14px;
+    height: 16px;
+}

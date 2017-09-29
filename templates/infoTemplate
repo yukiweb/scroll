@@ -1,0 +1,15 @@
+ <tr>
+        <td class="td5">
+            <div>
+                <table border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        {{each list value i}}
+                        <td width="33.3%" align="left"><span class="room">{{list[i].super_dm_font}}</span></td>
+                        <td width="33.3%" align="center"><span class="room">{{list[i].super_dm_font}}</span></td>
+                        <td width="33.3%" align="right"><span class="room">{{list[i].super_dm_font}}</span></td>
+                        {{/each}}
+                    </tr>
+                </table>
+            </div>
+        </td>
+    </tr>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="list/css/list.css">
+    <script src="list/js/jquery-3.2.1.js"></script>
+    <script src="list/js/template.js"></script>
+</head>
+<body>
+<!--信息栏模板-->
+<script type="text/html" id="infoTemplate">
+    <td class="td5">
+        <div>
+            <table border="0" cellspacing="0" cellpadding="0" class="firstinfo">
+                <tr>
+                    <td width="33.3%" align="left"><span class="room">观众数：{{data.audi_num}}</span></td>
+                    <td width="33.3%" align="center"><span class="room">礼物数：{{data.gift_num}}</span></td>
+                    <td width="33.3%" align="right"><span class="room">关注数：{{data.follow_num}}</span></td>
+                </tr>
+            </table>
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td width="50%" align="left"><span class="pc">cpu占用百分比：{{data.cpurate}}</span></td>
+                    <td width="50%" align="right"><span class="pc">内存占用百分比：{{data.memrate}}</span></td>
+                </tr>
+            </table>
+        </div>
+    </td>
+</script>
+<!--列表框-->
+<!--弹幕模板-->
+<script type="text/html" id="danmuRoomTemplate">
+    <table><tbody>
+    <tr>
+        <td class="td5">
+        </td>
+    </tr>
+    </tbody></table>
+</script>
+<!--礼物模板-->
+<script type="text/html" id="giftFreeTemplate">
+    <table><tbody>
+    <tr>
+    <td class="td5">
+        {{each initData.list[0].gift_free.free_format.replace(/user/,giftData.data.user_name).replace(/number/,giftData.data.gift_number).replace(/nickname/,giftData.data.gift_name).split(/\$/).slice(1) as value}}
+        <span>{{value}}</span>
+        {{/each}}
+    </tr>
+    </tbody></table>
+</script>
+<script type="text/html" id="giftPayTemplate">
+    <table><tbody>
+    <tr>
+        <td class="td5">
+            {{each initData.list[0].gift_pay.pay_format.replace(/user/,giftData.data.user_name).replace(/number/,giftData.data.gift_number).replace(/nickname/,giftData.data.gift_name).split(/\$/).slice(1) as value}}
+            <span>{{value}}</span>
+            {{/each}}
+        </td>
+    </tr>
+    </tbody></table>
+</script>
+<!--加入模板-->
+<script type="text/html" id="joinNTemplate">
+    <table><tbody>
+    <tr>
+    <td class="td5">
+        {{each initData.list[0].join_n.join_format.replace(/user/,joinData.data.user_name).split(/\$/).slice(1) as value}}
+        <span>{{value}}</span>
+        {{/each}}
+    </td>
+    </tr>
+    </tbody></table>
+</script>
+<script type="text/html" id="joinSuperTemplate">
+    <table><tbody>
+    <tr>
+        <td class="td5">
+            {{each initData.list[0].join_super.join_super_format.replace(/user/,joinData.data.user_name).split(/\$/).slice(1) as value}}
+            <span>{{value}}</span>
+            {{/each}}
+        </td>
+    </tr>
+    </tbody></table>
+</script>
+<!--关注模板-->
+<script type="text/html" id="followTemplate">
+    <table><tbody>
+    <tr>
+    <td class="td5">
+     {{#initData.list[0].follow.follow_format}}
+    </td>
+    </tr>
+    </tbody></table>
+</script>
+<!--弹幕助手-->
+<script type="text/html" id="noticeTemplate">
+    <table><tbody>
+    <tr>
+    <td class="td5">
+        <span class="role">[小葫芦]</span>
+        <span class="content">正在连接....</span>
+    </td>
+    </tr>
+    </tbody></table>
+</script>
+<script>
+//    异步加载js的方法
+var loadScript = function(url, callback) {
+    var head = document.getElementsByTagName('head')[0];
+    var script = document.createElement('script');
+    script.src = url;
+    if (!callback) {
+        return;
+    }
+    script.onload = script.onreadystatechange = function() {
+        if (!this.readyState || this.readyState === 'loaded' || this.readyState === 'complete') {
+            callback();
+        }
+    };
+    head.appendChild(script);
+};
+//设置样式的方法
+function setCss($el,obj) {//这个方法的参数是第一个是要改变样式的元素，第二个是需要改变的样式
+    var msg = {  //默认
+        // color:"black",
+        // fontSize:"16px"
+    };
+    for(var k in obj){
+        msg[k] = obj[k];
+    }
+    for( var j in msg){
+        if(msg[j] !== true||false){
+            $el.css(j,msg[j]);
+        }
+    }
+}  //设置css函数
+//判断加载哪个js的websocket请求
+    function websocketJudge() {
+        if ("WebSocket" in window) {
+            // 打开一个 web socket
+            var ws = new WebSocket("ws://localhost:55555/");
+            ws.onopen = function () {
+                // Web Socket 已连接上，使用 send() 方法发送数据
+                // ws.send("发送数据");
+                console.log('这里发送数据');
+            };
+            ws.onmessage = function (evt) {
+                if (evt.data) {
+                    var received_msg = evt.data;
+                    var data = JSON.parse(received_msg);
+                    // postMessage(data);//把接收到的data数据通过postMessage（）发给webworker，在webworker里面可以使用onmessage（）获取到数据
+                    if(data.type==="init"){
+                        if(data.list[0].guid==="ba392df3"){
+                            //url 为变量
+                            loadScript('./list/list.js',function () {
+                                xxx_styleInit(data);
+                                var list_data = document.getElementsByClassName("list_data")[0];
+                                list_data.addEventListener('DOMNodeInserted',function(){
+                                    xxx_listAnimate(data);
+                                });
+                            })
+                        }
+                    }
+                }
+
+            };
+            ws.onclose = function () {
+                // 关闭 websocket
+            };
+        }else{
+            // 浏览器不支持 WebSocket
+            console.log("您的浏览器不支持 WebSocket!");
+        }
+    }
+    websocketJudge();
+</script>
+</body>
+</html>

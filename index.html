@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="list/js/jquery-3.2.1.js"></script>
+    <script src="list/js/template-web.js"></script>
+    <script src="list/js/require.js"></script>
+    <style>
+        .hello{
+            width: 20px;
+            height: 20px;
+        }
+        body{
+            background:#2F2F2F;
+        }
+        .list_bg{
+            width: 400px;
+            border-radius: 5px;
+            border:2px solid #253A7C;
+            background-color: rgba(1,26,56,0.8);
+        }
+        .list_content{
+            margin:10px;
+        }
+        table{
+            margin:0 0 5px 0;
+        }
+        .line{
+            border-bottom:1px solid #023675;
+            margin:0 0 5px 0;
+        }
+        .info_row table{
+            width:100%;
+        }
+        /*信息栏-字体样式*/
+        .info_row .td5 span{
+            font-size:12px;
+            font-weight: normal;
+            font-family: 'Microsoft YaHei';
+        }
+        /*信息栏-字体颜色*/
+        .info_row .room{ /*房间*/
+            color:#E7D069;
+        }
+        .info_row .obs{ /*OBS信息*/
+            color:#69E780;
+        }
+        .info_row .pc{ /*PC信息*/
+            color:#BA6FE4;
+        }
+        .info_row .calabash{ /*小葫芦*/
+            color:#BF85ED;
+        }
+        /*弹幕-字体样式*/
+        .danmu_row .td5 span{
+            font-size:12px;
+            font-weight: normal;
+            font-family: 'Microsoft YaHei';
+        }
+        /*弹幕-字体颜色*/
+        .danmu_row .role{ /*角色*/
+            color:#E7D069;
+        }
+        .danmu_row .username{ /*用户名*/
+            color:#69E780;
+        }
+        .danmu_row .message{ /*弹幕内容*/
+            color:#BA6FE4;
+        }
+        /*礼物-字体样式*/
+        .gift_row .td5 span{
+            font-size:14px;
+            font-weight: normal;
+            font-family: 'Microsoft YaHei';
+        }
+        /*礼物-字体颜色*/
+        .gift_row .role{ /*角色*/
+            color:#BA6FE4;
+        }
+        .gift_row .username{ /*用户名*/
+            color:#69E780;
+        }
+        .gift_row .give{ /*赠送*/
+            color:#51D1DC;
+        }
+        .gift_row .sum{ /*数量*/
+            color:#C593DC;
+        }
+        .gift_row .giftname{ /*礼物名称*/
+            color:#D3DC09;
+        }
+        .gift_row .combo{ /*连击*/
+            color:#D6D6D6;
+        }
+        /*进入房间-字体样式*/
+        .join_row .td5 span{
+            font-size:12px;
+            font-weight: normal;
+            font-family: 'Microsoft YaHei';
+        }
+        /*进入房间-字体颜色*/
+        .join_row .role{ /*角色*/
+            color:#BA6FE4;
+        }
+        .join_row .username{ /*用户名*/
+            color:#69E780;
+        }
+        .join_row .action{ /*动作*/
+            color:#51D1DC;
+        }
+        .join_row .horse{ /*坐骑*/
+            color:#DC8F09;
+        }
+        .join_row .content{ /*内容*/
+            color:#D6D6D6;
+        }
+        /*关注-字体样式*/
+        .follow_row .td5 span{
+            font-size:14px;
+            font-weight: normal;
+            font-family: 'Microsoft YaHei';
+        }
+        /*关注-字体颜色*/
+        .follow_row .role{ /*角色*/
+            color:#BA6FE4;
+        }
+        .follow_row .username{ /*用户名*/
+            color:#69E780;
+        }
+        .follow_row .content{ /*内容*/
+            color:#D6D6D6;
+        }
+        /*弹幕助手通知-字体样式*/
+        .notice_row .td5 span{
+            font-size:14px;
+            font-weight: normal;
+            font-family: 'Microsoft YaHei';
+        }
+        /*弹幕助手通知-字体颜色*/
+        .notice_row .role{ /*角色*/
+            color:#BA6FE4;
+        }
+        .notice_row .content{ /*内容*/
+            color:#D6D6D6;
+        }
+        /* 皮肤 */
+        .row_skin .td1{
+            background: url("images/a_01.png") no-repeat;
+            width: 18px;
+            height: 15px;
+        }
+        .row_skin .td2{
+            background: url("images/a_02.png") repeat-x;
+            width: auto;
+            height: 15px;
+        }
+        .row_skin .td3{
+            background: url("images/a_03.png") no-repeat;
+            width: 14px;
+            height: 15px;
+        }
+        .row_skin .td4{
+            background: url("images/a_04.png") repeat-y;
+            width: 18px;
+            height: auto;
+        }
+        .row_skin .td5{
+            background: #6F1418;
+            width: auto;
+            height: auto;
+        }
+        .row_skin .td6{
+            background: url("images/a_06.png") repeat-y;
+            width: 14px;
+            height: auto;
+        }
+        .row_skin .td7{
+            background: url("images/a_07.png") no-repeat;
+            width: 18px;
+            height: 16px;
+        }
+        .row_skin .td8{
+            background: url("images/a_08.png") repeat-x;
+            width: auto;
+            height: 16px;
+        }
+        .row_skin .td9{
+            background: url("images/a_09.png") no-repeat;
+            width: 14px;
+            height: 16px;
+        }
+    </style>
+</head>
+<body>
+<!--信息栏模板-->
+<script type="text/html" id="infoTemplate">
+
+</script>
+<!--弹幕栏模板-->
+<script type="text/html" id="danmu_rowTemplate">
+    <tr>
+        <td class="td5">
+            {{each list value i}}
+            <span class="role">{{list[i].super_dm_font}}</span>
+            <span class="username">{{list[i].super_dm_font}}</span>
+            <span class="message">{{list[i].super_dm_font}}</span>
+            {{/each}}
+        </td>
+    </tr>
+</script>
+<!--礼物栏模板-->
+<script type="text/html" id="gift_rowTemplate"></script>
+<!--加入栏模板-->
+<script type="text/html" id="join_rowTemplate"></script>
+<!--关注栏模板-->
+<script type="text/html" id="follow_rowTemplate"></script>
+<div class="list_bg">
+    <div class="list_content">
+        <!-- 信息栏-->
+        <div class="info_row">
+            <!-- 加皮肤 table 添加 class="row_skin"-->
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td class="td1"></td>
+                    <td class="td2"></td>
+                    <td class="td3"></td>
+                </tr>
+                <tr>
+                    <td class="td4"></td>
+                    <td class="td5">
+                        <div>
+                            <table border="0" cellspacing="0" cellpadding="0" class="firstinfo">
+                                <!--<tr>-->
+                                    <!--<td width="33.3%" align="left"><span class="room">观众数：12</span></td>-->
+                                    <!--<td width="33.3%" align="center"><span class="room">礼物数：131</span></td>-->
+                                    <!--<td width="33.3%" align="right"><span class="room">关注数：4646</span></td>-->
+                                <!--</tr>-->
+                            </table>
+                            <table border="0" cellspacing="0" cellpadding="0">
+                                <!--<tr>-->
+                                    <!--<td width="50%" align="left"><span class="pc">CPU占用百分比：50%</span></td>-->
+                                    <!--<td width="50%" align="right"><span class="pc">内存占用百分比：10%</span></td>-->
+                                <!--</tr>-->
+                            </table>
+                        </div>
+                    </td>
+                    <td class="td6"></td>
+                </tr>
+                <tr>
+                    <td class="td7"></td>
+                    <td class="td8"></td>
+                    <td class="td9"></td>
+                </tr>
+            </table>
+        </div>
+        <!-- 分割线，皮肤模式下无分割线-->
+        <div class="line"></div>
+        <!-- 弹幕-->
+        <div class="danmu_row">
+            <!-- 加皮肤 table 添加 class="row_skin"-->
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                <td class="td1"></td>
+                <td class="td2"></td>
+                <td class="td3"></td>
+                </tr>
+                <tr>
+                    <td class="td4"></td>
+                    <!--<td class="td5">-->
+                        <!--<span class="role">[观众]</span>-->
+                        <!--<span class="username">进击的白球球：</span>-->
+                        <!--<span class="message">主播你好美呀！</span>-->
+                    <!--</td>-->
+                    <td class="td6"></td>
+                </tr>
+                <tr>
+                <td class="td7"></td>
+                <td class="td8"></td>
+                <td class="td9"></td>
+                </tr>
+            </table>
+        </div>
+        <!-- 分割线，皮肤模式下无分割线-->
+        <div class="line"></div>
+        <!-- 礼物-->
+        <div class="gift_row">
+            <!-- 加皮肤 table 添加 class="row_skin"-->
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td class="td1"></td>
+                    <td class="td2"></td>
+                    <td class="td3"></td>
+                </tr>
+                <tr>
+                    <td class="td4"></td>
+                    <!--<td class="td5">-->
+                        <!--<span class="role">[观众]</span>-->
+                        <!--<span class="username">小花</span>-->
+                        <!--<span class="give">赠送</span>-->
+                        <!--<span class="sum">100个</span>-->
+                        <!--<span class="giftname">鱼丸</span>-->
+                        <!--<span class="combo">x100</span>-->
+                    <!--</td>-->
+                    <td class="td6"></td>
+                </tr>
+                <tr>
+                    <td class="td7"></td>
+                    <td class="td8"></td>
+                    <td class="td9"></td>
+                </tr>
+            </table>
+        </div>
+        <!-- 分割线，皮肤模式下无分割线-->
+        <div class="line"></div>
+        <!-- 进入房间-->
+        <div class="join_row">
+            <!-- 加皮肤 table 添加 class="row_skin"-->
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td class="td1"></td>
+                    <td class="td2"></td>
+                    <td class="td3"></td>
+                </tr>
+                <tr>
+                    <td class="td4"></td>
+                    <!--<td class="td5">-->
+                        <!--<span class="role">[观众]</span>-->
+                        <!--<span class="username">小敏</span>-->
+                        <!--<span class="action">骑着</span>-->
+                        <!--<span class="horse">白马</span>-->
+                        <!--<span class="content">进入直播间</span>-->
+                    <!--</td>-->
+                    <td class="td6"></td>
+                </tr>
+                <tr>
+                    <td class="td7"></td>
+                    <td class="td8"></td>
+                    <td class="td9"></td>
+                </tr>
+            </table>
+        </div>
+        <!-- 分割线，皮肤模式下无分割线-->
+        <div class="line"></div>
+        <!-- 关注-->
+        <div class="follow_row">
+            <!-- 加皮肤 table 添加 class="row_skin"-->
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td class="td1"></td>
+                    <td class="td2"></td>
+                    <td class="td3"></td>
+                </tr>
+                <tr>
+                    <td class="td4"></td>
+                    <!--<td class="td5">-->
+                        <!--<span class="role">[观众]</span>-->
+                        <!--<span class="username">小敏</span>-->
+                        <!--<span class="content">关注了你的直播间</span>-->
+                    <!--</td>-->
+                    <td class="td6"></td>
+                </tr>
+                <tr>
+                    <td class="td7"></td>
+                    <td class="td8"></td>
+                    <td class="td9"></td>
+                </tr>
+            </table>
+        </div>
+        <!-- 分割线，皮肤模式下无分割线-->
+        <div class="line"></div>
+        <!-- 弹幕助手信息-->
+        <div class="notice_row">
+            <!-- 加皮肤 table 添加 class="row_skin"-->
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td class="td1"></td>
+                    <td class="td2"></td>
+                    <td class="td3"></td>
+                </tr>
+                <tr>
+                    <td class="td4"></td>
+                    <!--<td class="td5">-->
+                        <!--<span class="role">[小葫芦]</span>-->
+                        <!--<span class="content">正在连接....</span>-->
+                    <!--</td>-->
+                    <td class="td6"></td>
+                </tr>
+                <tr>
+                    <td class="td7"></td>
+                    <td class="td8"></td>
+                    <td class="td9"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+<script src="list/js/listwebsocket.js"></script>
+</html>
+</html>

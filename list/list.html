@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<link rel="stylesheet" href="css/list.css">
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/template.js"></script>
+<!--信息栏模板-->
+<script type="text/html" id="infoTemplate">
+    <td class="td5">
+        <div>
+            <table border="0" cellspacing="0" cellpadding="0" class="firstinfo">
+                {{each list as value i}}
+                <tr>
+                <td width="33.3%" align="left"><span class="room">{{list[i].guid}}</span></td>
+                <td width="33.3%" align="center"><span class="room">{{list[i].guid}}</span></td>
+                <td width="33.3%" align="right"><span class="room">{{list[i].guid}}</span></td>
+                </tr>
+                {{/each}}
+            </table>
+            <table border="0" cellspacing="0" cellpadding="0">
+                {{each list as value i}}
+                <tr>
+                <td width="50%" align="left"><span class="pc">{{list[i].guid}}</span></td>
+                <td width="50%" align="right"><span class="pc">{{list[i].guid}}</span></td>
+                </tr>
+                {{/each}}
+            </table>
+        </div>
+    </td>
+</script>
+<!--列表框-->
+<!--弹幕模板-->
+<script type="text/html" id="danmuTemplate">
+    <td class="td5">
+        {{each list value i}}
+    <span class="role">{{list[i].guid}}</span>
+    <span class="username">{{list[i].guid}}</span>
+    <span class="message">{{list[i].guid}}</span>
+        {{/each}}
+    </td>
+</script>
+<!--礼物模板-->
+<script type="text/html" id="giftTemplate">
+    <td class="td5">
+        {{each list value i}}
+        <span class="role">{{list[i].guid}}</span>
+        <span class="username">{{list[i].guid}}</span>
+        <span class="give">{{list[i].guid}}</span>
+        <span class="sum">{{list[i].guid}}</span>
+        <span class="giftname">{{list[i].guid}}</span>
+        <span class="combo">{{list[i].guid}}</span>
+        {{/each}}
+    </td>
+</script>
+<!--加入模板-->
+<script type="text/html" id="joinTemplate">
+    <td class="td5">
+        {{each list value i}}
+        <span class="role">{{list[i].guid}}</span>
+        <span class="username">{{list[i].guid}}</span>
+        <span class="action">{{list[i].guid}}</span>
+        <span class="horse">{{list[i].guid}}</span>
+        <span class="content">{{list[i].guid}}</span>
+        {{/each}}
+    </td>
+</script>
+<!--关注模板-->
+<script type="text/html" id="followTemplate">
+    <td class="td5">
+        {{each list value i}}
+        <span class="role">{{list[i].guid}}</span>
+        <span class="username">{{list[i].guid}}</span>
+        <span class="content">{{list[i].guid}}</span>
+        {{/each}}
+    </td>
+</script>
+<!--弹幕助手-->
+<script type="text/html" id="noticeTemplate">
+    <td class="td5">
+        {{each list value i}}
+        <span class="role">{{list[i].guid}}</span>
+        <span class="content">{{list[i].guid}}</span>
+        {{/each}}
+    </td>
+</script>
+<!--<div class="list_bg">
+    <div class="list_content">
+        &lt;!&ndash; 信息栏&ndash;&gt;
+        <div class="info_row">
+            &lt;!&ndash; 加皮肤 table 添加 class="row_skin"&ndash;&gt;
+            <table border="0" cellspacing="0" cellpadding="0">
+
+                <tr>
+                    <td class="td4"></td>
+                    <td class="td6"></td>
+                </tr>
+
+            </table>
+        </div>
+        &lt;!&ndash; 分割线，皮肤模式下无分割线&ndash;&gt;
+        <div class="line"></div>
+        &lt;!&ndash; 弹幕&ndash;&gt;
+        <div class="danmu_row">
+            &lt;!&ndash; 加皮肤 table 添加 class="row_skin"&ndash;&gt;
+            <table border="0" cellspacing="0" cellpadding="0">
+                &lt;!&ndash;<tr>&ndash;&gt;
+                    &lt;!&ndash;<td class="td1"></td>&ndash;&gt;
+                    &lt;!&ndash;<td class="td2"></td>&ndash;&gt;
+                    &lt;!&ndash;<td class="td3"></td>&ndash;&gt;
+                &lt;!&ndash;</tr>&ndash;&gt;
+                <tr>
+                    <td class="td4"></td>
+                    &lt;!&ndash;<td class="td5">&ndash;&gt;
+                    &lt;!&ndash;<span class="role">[观众]</span>&ndash;&gt;
+                    &lt;!&ndash;<span class="username">进击的白球球：</span>&ndash;&gt;
+                    &lt;!&ndash;<span class="message">主播你好美呀！</span>&ndash;&gt;
+                    &lt;!&ndash;</td>&ndash;&gt;
+                    <td class="td6"></td>
+                </tr>
+                &lt;!&ndash;<tr>&ndash;&gt;
+                    &lt;!&ndash;<td class="td7"></td>&ndash;&gt;
+                    &lt;!&ndash;<td class="td8"></td>&ndash;&gt;
+                    &lt;!&ndash;<td class="td9"></td>&ndash;&gt;
+                &lt;!&ndash;</tr>&ndash;&gt;
+            </table>
+        </div>
+        &lt;!&ndash; 分割线，皮肤模式下无分割线&ndash;&gt;
+        <div class="line"></div>
+        &lt;!&ndash; 礼物&ndash;&gt;
+        <div class="gift_row">
+            &lt;!&ndash; 加皮肤 table 添加 class="row_skin"&ndash;&gt;
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td class="td1"></td>
+                    <td class="td2"></td>
+                    <td class="td3"></td>
+                </tr>
+                <tr>
+                    <td class="td4"></td>
+                    &lt;!&ndash;<td class="td5">&ndash;&gt;
+                    &lt;!&ndash;<span class="role">[观众]</span>&ndash;&gt;
+                    &lt;!&ndash;<span class="username">小花</span>&ndash;&gt;
+                    &lt;!&ndash;<span class="give">赠送</span>&ndash;&gt;
+                    &lt;!&ndash;<span class="sum">100个</span>&ndash;&gt;
+                    &lt;!&ndash;<span class="giftname">鱼丸</span>&ndash;&gt;
+                    &lt;!&ndash;<span class="combo">x100</span>&ndash;&gt;
+                    &lt;!&ndash;</td>&ndash;&gt;
+                    <td class="td6"></td>
+                </tr>
+                <tr>
+                    <td class="td7"></td>
+                    <td class="td8"></td>
+                    <td class="td9"></td>
+                </tr>
+            </table>
+        </div>
+        &lt;!&ndash; 分割线，皮肤模式下无分割线&ndash;&gt;
+        <div class="line"></div>
+        &lt;!&ndash; 进入房间&ndash;&gt;
+        <div class="join_row">
+            &lt;!&ndash; 加皮肤 table 添加 class="row_skin"&ndash;&gt;
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td class="td1"></td>
+                    <td class="td2"></td>
+                    <td class="td3"></td>
+                </tr>
+                <tr>
+                    <td class="td4"></td>
+                    &lt;!&ndash;<td class="td5">&ndash;&gt;
+                    &lt;!&ndash;<span class="role">[观众]</span>&ndash;&gt;
+                    &lt;!&ndash;<span class="username">小敏</span>&ndash;&gt;
+                    &lt;!&ndash;<span class="action">骑着</span>&ndash;&gt;
+                    &lt;!&ndash;<span class="horse">白马</span>&ndash;&gt;
+                    &lt;!&ndash;<span class="content">进入直播间</span>&ndash;&gt;
+                    &lt;!&ndash;</td>&ndash;&gt;
+                    <td class="td6"></td>
+                </tr>
+                <tr>
+                    <td class="td7"></td>
+                    <td class="td8"></td>
+                    <td class="td9"></td>
+                </tr>
+            </table>
+        </div>
+        &lt;!&ndash; 分割线，皮肤模式下无分割线&ndash;&gt;
+        <div class="line"></div>
+        &lt;!&ndash; 关注&ndash;&gt;
+        <div class="follow_row">
+            &lt;!&ndash; 加皮肤 table 添加 class="row_skin"&ndash;&gt;
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td class="td1"></td>
+                    <td class="td2"></td>
+                    <td class="td3"></td>
+                </tr>
+                <tr>
+                    <td class="td4"></td>
+                    &lt;!&ndash;<td class="td5">&ndash;&gt;
+                    &lt;!&ndash;<span class="role">[观众]</span>&ndash;&gt;
+                    &lt;!&ndash;<span class="username">小敏</span>&ndash;&gt;
+                    &lt;!&ndash;<span class="content">关注了你的直播间</span>&ndash;&gt;
+                    &lt;!&ndash;</td>&ndash;&gt;
+                    <td class="td6"></td>
+                </tr>
+                <tr>
+                    <td class="td7"></td>
+                    <td class="td8"></td>
+                    <td class="td9"></td>
+                </tr>
+            </table>
+        </div>
+        &lt;!&ndash; 分割线，皮肤模式下无分割线&ndash;&gt;
+        <div class="line"></div>
+        &lt;!&ndash; 弹幕助手信息&ndash;&gt;
+        <div class="notice_row">
+            &lt;!&ndash; 加皮肤 table 添加 class="row_skin"&ndash;&gt;
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td class="td1"></td>
+                    <td class="td2"></td>
+                    <td class="td3"></td>
+                </tr>
+                <tr>
+                    <td class="td4"></td>
+                    &lt;!&ndash;<td class="td5">&ndash;&gt;
+                    &lt;!&ndash;<span class="role">[小葫芦]</span>&ndash;&gt;
+                    &lt;!&ndash;<span class="content">正在连接....</span>&ndash;&gt;
+                    &lt;!&ndash;</td>&ndash;&gt;
+                    <td class="td6"></td>
+                </tr>
+                <tr>
+                    <td class="td7"></td>
+                    <td class="td8"></td>
+                    <td class="td9"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>-->
+<script src="js/listwebsocket.js"></script>
+</body>
+</html>
