@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7404c87f-324d-4d52-a296-5649ad98d3b2" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/展示功能列表的主页面.html" afterPath="$PROJECT_DIR$/展示功能列表的主页面.html" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scroll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-3.2.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/lyindex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/template-web.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/websocket.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/list/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/展示功能列表的主页面.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/list/css/list.css" afterPath="$PROJECT_DIR$/list/css/list.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/list/list.js" afterPath="$PROJECT_DIR$/list/list.js" />
+>>>>>>> ‘第二次修改’
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,6 +32,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <splitter split-orientation="horizontal" split-proportion="0.9">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -25,30 +42,91 @@
                 <state relative-caret-position="675">
                   <caret line="127" column="30" lean-forward="false" selection-start-line="127" selection-start-column="30" selection-end-line="127" selection-end-column="30" />
                   <folding />
+=======
+    <splitter split-orientation="horizontal" split-proportion="0.2629717">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="25">
+                  <caret line="141" column="35" lean-forward="false" selection-start-line="141" selection-start-column="35" selection-end-line="141" selection-end-column="35" />
+                  <folding>
+                    <element signature="e#3417#3625#0" expanded="false" />
+                    <element signature="e#3655#3738#0" expanded="false" />
+                    <element signature="e#3773#3861#0" expanded="false" />
+                    <element signature="e#3895#4136#0" expanded="false" />
+                    <element signature="e#4169#6863#0" expanded="false" />
+                    <element signature="e#4278#6833#0" expanded="false" />
+                    <element signature="e#6899#12615#0" expanded="false" />
+                    <element signature="e#9821#12604#0" expanded="false" />
+                    <element signature="e#12722#16580#0" expanded="false" />
+                    <element signature="e#16645#18306#0" expanded="false" />
+                    <element signature="e#18369#19547#0" expanded="false" />
+                    <element signature="e#19612#20949#0" expanded="false" />
+                    <element signature="e#21037#26199#0" expanded="false" />
+                    <element signature="e#26255#28841#0" expanded="false" />
+                    <element signature="e#28896#31445#0" expanded="false" />
+                    <element signature="e#31497#33966#0" expanded="false" />
+                    <element signature="e#34044#39365#0" expanded="false" />
+                    <element signature="e#39422#44670#0" expanded="false" />
+                    <element signature="e#44747#49822#0" expanded="false" />
+                    <element signature="e#49881#51702#0" expanded="false" />
+                    <element signature="e#51755#55842#0" expanded="false" />
+                    <element signature="e#55895#56197#0" expanded="false" />
+                  </folding>
+>>>>>>> ‘第二次修改’
                 </state>
               </provider>
             </entry>
           </file>
+<<<<<<< HEAD
           <file leaf-file-name="list.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/list/css/list.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="25">
                   <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
                   <folding />
+=======
+          <file leaf-file-name="test.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../json/test.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2000">
+                  <caret line="80" column="24" lean-forward="false" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="24" />
+                  <folding>
+                    <element signature="e#12449#13721#0" expanded="false" />
+                    <element signature="e#13745#14317#0" expanded="false" />
+                    <element signature="e#14338#28833#0" expanded="false" />
+                    <element signature="e#17592#19161#0" expanded="false" />
+                    <element signature="e#19188#19971#0" expanded="false" />
+                    <element signature="e#19997#20777#0" expanded="false" />
+                    <element signature="e#20800#21571#0" expanded="false" />
+                    <element signature="e#28843#43110#0" expanded="false" />
+                  </folding>
+>>>>>>> ‘第二次修改’
                 </state>
               </provider>
             </entry>
           </file>
+<<<<<<< HEAD
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$USER_HOME$/Downloads/%E5%BC%82%E6%AD%A5Script%E5%8A%A0%E8%BD%BD/异步Script加载/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="800">
                   <caret line="32" column="6" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="32" selection-end-column="6" />
+=======
+          <file leaf-file-name="info.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../json/info.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="650">
+                  <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+>>>>>>> ‘第二次修改’
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
+<<<<<<< HEAD
           <file leaf-file-name="init.json" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../json/init.json">
               <provider selected="true" editor-type-id="text-editor">
@@ -68,6 +146,14 @@
                     <element signature="e#9752#10257#0" expanded="false" />
                     <element signature="e#11339#11798#0" expanded="false" />
                   </folding>
+=======
+          <file leaf-file-name="list.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/list/css/list.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1025">
+                  <caret line="41" column="24" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+                  <folding />
+>>>>>>> ‘第二次修改’
                 </state>
               </provider>
             </entry>
@@ -79,6 +165,7 @@
           <file leaf-file-name="list.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/list/list.js">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state relative-caret-position="500">
                   <caret line="167" column="68" lean-forward="false" selection-start-line="167" selection-start-column="50" selection-end-line="167" selection-end-column="68" />
                   <folding>
@@ -88,21 +175,60 @@
                     <element signature="e#2298#4262#0" expanded="false" />
                     <element signature="e#7469#8271#0" expanded="false" />
                     <element signature="e#8310#9161#0" expanded="false" />
+=======
+                <state relative-caret-position="802">
+                  <caret line="264" column="46" lean-forward="false" selection-start-line="264" selection-start-column="46" selection-end-line="264" selection-end-column="46" />
+                  <folding>
+                    <element signature="e#5544#5830#0" expanded="false" />
+                    <element signature="e#6141#6238#0" expanded="false" />
+                    <element signature="e#6280#6382#0" expanded="false" />
+                    <element signature="e#6423#6706#0" expanded="false" />
+                    <element signature="e#6746#9755#0" expanded="false" />
+                    <element signature="e#6876#9711#0" expanded="false" />
+                    <element signature="e#9798#16123#0" expanded="false" />
+                    <element signature="e#13028#16105#0" expanded="false" />
+                    <element signature="e#16258#20552#0" expanded="false" />
+                    <element signature="e#20631#22495#0" expanded="false" />
+                    <element signature="e#22572#23897#0" expanded="false" />
+                    <element signature="e#23976#25467#0" expanded="false" />
+                    <element signature="e#25583#31400#0" expanded="false" />
+                    <element signature="e#31470#34545#0" expanded="false" />
+                    <element signature="e#34614#37471#0" expanded="false" />
+                    <element signature="e#37537#40314#0" expanded="false" />
+                    <element signature="e#40413#46406#0" expanded="false" />
+                    <element signature="e#46477#52397#0" expanded="false" />
+                    <element signature="e#52495#58242#0" expanded="false" />
+                    <element signature="e#58315#60367#0" expanded="false" />
+                    <element signature="e#60434#65067#0" expanded="false" />
+                    <element signature="e#65134#65478#0" expanded="false" />
+                    <element signature="e#70482#71465#0" expanded="false" />
+                    <element signature="e#71504#72550#0" expanded="false" />
+                    <element signature="e#72591#73218#0" expanded="false" />
+>>>>>>> ‘第二次修改’
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
+<<<<<<< HEAD
           <file leaf-file-name="danmu.json" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../json/danmu.json">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="275">
                   <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+=======
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> ‘第二次修改’
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
+<<<<<<< HEAD
           <file leaf-file-name="follow.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../json/follow.json">
               <provider selected="true" editor-type-id="text-editor">
@@ -128,16 +254,31 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="300">
                   <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+=======
+          <file leaf-file-name="init.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../json/init.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="5975">
+                  <caret line="239" column="6" lean-forward="false" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
+>>>>>>> ‘第二次修改’
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
+<<<<<<< HEAD
           <file leaf-file-name="info.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../json/info.json">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1550">
                   <caret line="62" column="1" lean-forward="false" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+=======
+          <file leaf-file-name="follow.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../json/follow.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="925">
+                  <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="21" />
+>>>>>>> ‘第二次修改’
                   <folding />
                 </state>
               </provider>
@@ -151,9 +292,21 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+<<<<<<< HEAD
       </list>
     </option>
   </component>
+=======
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ba392df3</find>
+    </findStrings>
+  </component>
+>>>>>>> ‘第二次修改’
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -169,18 +322,41 @@
         <option value="$USER_HOME$/json/info.json" />
         <option value="$USER_HOME$/json/init.json" />
         <option value="G:/json/new.json" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/list/css/list.css" />
+=======
+>>>>>>> ‘第二次修改’
         <option value="G:/json/info.json" />
         <option value="G:/json/follow.json" />
         <option value="G:/json/gift.json" />
         <option value="G:/json/join.json" />
         <option value="G:/json/danmu.json" />
         <option value="G:/json/init.json" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/list/list.js" />
         <option value="$PROJECT_DIR$/../json/danmu.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/展示功能列表的主页面.html" />
         <option value="$PROJECT_DIR$/../json/init.json" />
+=======
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/../json/follow.json" />
+        <option value="$PROJECT_DIR$/../json/danmu.json" />
+        <option value="$PROJECT_DIR$/../json/join.json" />
+        <option value="$PROJECT_DIR$/../json/init.json" />
+        <option value="$PROJECT_DIR$/../json/gift.json" />
+        <option value="E:/chatroom/chatroom/package.json" />
+        <option value="$PROJECT_DIR$/../json/test.json" />
+        <option value="H:/气泡弹框/js/websocket.js" />
+        <option value="$PROJECT_DIR$/../json/new color.html" />
+        <option value="$PROJECT_DIR$/../json/info.json" />
+        <option value="$PROJECT_DIR$/new.html" />
+        <option value="$PROJECT_DIR$/展示功能列表的主页面.html" />
+        <option value="$PROJECT_DIR$/index1.html" />
+        <option value="$PROJECT_DIR$/list/css/list.css" />
+        <option value="$PROJECT_DIR$/list/list.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+>>>>>>> ‘第二次修改’
       </list>
     </option>
   </component>
@@ -198,10 +374,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
+<<<<<<< HEAD
     <option name="x" value="368" />
     <option name="y" value="136" />
     <option name="width" value="1378" />
     <option name="height" value="724" />
+=======
+    <option name="x" value="300" />
+    <option name="y" value="132" />
+    <option name="width" value="1400" />
+    <option name="height" value="937" />
+>>>>>>> ‘第二次修改’
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -218,7 +401,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> ‘第二次修改’
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,6 +416,10 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> ‘第二次修改’
       <pane id="Scratches" />
     </panes>
   </component>
@@ -238,11 +428,19 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="last_opened_file_path" value="E:/chatroom" />
+>>>>>>> ‘第二次修改’
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/list/css/list.css" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+<<<<<<< HEAD
+=======
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+>>>>>>> ‘第二次修改’
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -280,17 +478,55 @@
       <workItem from="1506521584820" duration="5182000" />
       <workItem from="1506648642394" duration="1213000" />
       <workItem from="1506651892752" duration="120000" />
+<<<<<<< HEAD
       <workItem from="1506652092875" duration="3725000" />
+=======
+      <workItem from="1506652092875" duration="21975000" />
+      <workItem from="1507512707522" duration="24509000" />
+      <workItem from="1507544836655" duration="108000" />
+      <workItem from="1507599115688" duration="12712000" />
+      <workItem from="1507623758952" duration="7836000" />
+      <workItem from="1507687289918" duration="973000" />
+      <workItem from="1507689536634" duration="727000" />
+      <workItem from="1507692755178" duration="1386000" />
+      <workItem from="1507773104686" duration="17000" />
+      <workItem from="1507773129571" duration="1041000" />
+      <workItem from="1507774480929" duration="2682000" />
+      <workItem from="1507858266396" duration="4487000" />
+      <workItem from="1508118048576" duration="21081000" />
+      <workItem from="1508151129611" duration="1156000" />
+      <workItem from="1508203687606" duration="60790000" />
+      <workItem from="1508464131770" duration="28125000" />
+      <workItem from="1508499341369" duration="502000" />
+      <workItem from="1508723340811" duration="78000" />
+      <workItem from="1508723439778" duration="18428000" />
+      <workItem from="1508810047169" duration="22592000" />
+      <workItem from="1508895794696" duration="659000" />
+>>>>>>> ‘第二次修改’
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="151048000" />
+=======
+    <option name="totallyTimeSpent" value="413421000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+>>>>>>> ‘第二次修改’
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06954689" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -300,6 +536,17 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10642782" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3264418" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> ‘第二次修改’
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -317,7 +564,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+<<<<<<< HEAD
       <option name="time" value="1" />
+=======
+      <option name="time" value="4" />
+>>>>>>> ‘第二次修改’
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -327,16 +578,45 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#1049#1104#0" expanded="false" />
             <element signature="e#1133#1246#0" expanded="false" />
             <element signature="e#1274#2267#0" expanded="false" />
             <element signature="e#2298#4262#0" expanded="false" />
             <element signature="e#7469#8271#0" expanded="false" />
             <element signature="e#8310#9161#0" expanded="false" />
+=======
+            <element signature="e#5544#5830#0" expanded="false" />
+            <element signature="e#6141#6238#0" expanded="false" />
+            <element signature="e#6280#6382#0" expanded="false" />
+            <element signature="e#6423#6706#0" expanded="false" />
+            <element signature="e#6746#9755#0" expanded="false" />
+            <element signature="e#6876#9711#0" expanded="false" />
+            <element signature="e#9798#16123#0" expanded="false" />
+            <element signature="e#13028#16105#0" expanded="false" />
+            <element signature="e#16258#20552#0" expanded="false" />
+            <element signature="e#20631#22495#0" expanded="false" />
+            <element signature="e#22572#23897#0" expanded="false" />
+            <element signature="e#23976#25467#0" expanded="false" />
+            <element signature="e#25583#31400#0" expanded="false" />
+            <element signature="e#31470#34545#0" expanded="false" />
+            <element signature="e#34614#37471#0" expanded="false" />
+            <element signature="e#37537#40314#0" expanded="false" />
+            <element signature="e#40413#46406#0" expanded="false" />
+            <element signature="e#46477#52397#0" expanded="false" />
+            <element signature="e#52495#58242#0" expanded="false" />
+            <element signature="e#58315#60367#0" expanded="false" />
+            <element signature="e#60434#65067#0" expanded="false" />
+            <element signature="e#65134#65478#0" expanded="false" />
+            <element signature="e#70482#71465#0" expanded="false" />
+            <element signature="e#71504#72550#0" expanded="false" />
+            <element signature="e#72591#73218#0" expanded="false" />
+>>>>>>> ‘第二次修改’
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/list/js/listwebsocket.js" />
     <entry file="file://$PROJECT_DIR$/list/css/list.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -355,21 +635,54 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/list/list.html" />
+    <entry file="file://$PROJECT_DIR$/展示功能列表的主页面.html" />
+>>>>>>> ‘第二次修改’
     <entry file="file://$PROJECT_DIR$/list/list.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#1049#1104#0" expanded="false" />
             <element signature="e#1133#1246#0" expanded="false" />
             <element signature="e#1274#2267#0" expanded="false" />
             <element signature="e#2298#4262#0" expanded="false" />
             <element signature="e#7469#8271#0" expanded="false" />
             <element signature="e#8310#9161#0" expanded="false" />
+=======
+            <element signature="e#5544#5830#0" expanded="false" />
+            <element signature="e#6141#6238#0" expanded="false" />
+            <element signature="e#6280#6382#0" expanded="false" />
+            <element signature="e#6423#6706#0" expanded="false" />
+            <element signature="e#6746#9755#0" expanded="false" />
+            <element signature="e#6876#9711#0" expanded="false" />
+            <element signature="e#9798#16123#0" expanded="false" />
+            <element signature="e#13028#16105#0" expanded="false" />
+            <element signature="e#16258#20552#0" expanded="false" />
+            <element signature="e#20631#22495#0" expanded="false" />
+            <element signature="e#22572#23897#0" expanded="false" />
+            <element signature="e#23976#25467#0" expanded="false" />
+            <element signature="e#25583#31400#0" expanded="false" />
+            <element signature="e#31470#34545#0" expanded="false" />
+            <element signature="e#34614#37471#0" expanded="false" />
+            <element signature="e#37537#40314#0" expanded="false" />
+            <element signature="e#40413#46406#0" expanded="false" />
+            <element signature="e#46477#52397#0" expanded="false" />
+            <element signature="e#52495#58242#0" expanded="false" />
+            <element signature="e#58315#60367#0" expanded="false" />
+            <element signature="e#60434#65067#0" expanded="false" />
+            <element signature="e#65134#65478#0" expanded="false" />
+            <element signature="e#70482#71465#0" expanded="false" />
+            <element signature="e#71504#72550#0" expanded="false" />
+            <element signature="e#72591#73218#0" expanded="false" />
+>>>>>>> ‘第二次修改’
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/list/js/listwebsocket.js" />
     <entry file="file://$PROJECT_DIR$/展示功能列表的主页面.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -484,10 +797,82 @@
     <entry file="file://$PROJECT_DIR$/js/websocket.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+=======
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="736" column="0" lean-forward="false" selection-start-line="736" selection-start-column="0" selection-end-line="736" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/json/info.json" />
+    <entry file="file://$USER_HOME$/json/gift.json" />
+    <entry file="file://$USER_HOME$/json/join.json" />
+    <entry file="file://$USER_HOME$/json/follow.json" />
+    <entry file="file://$USER_HOME$/json/style.json" />
+    <entry file="file://$USER_HOME$/json/danmu.json" />
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/673781337/FileRecv/MobileShopProject/MobileShopProject/baicaijia.html" />
+    <entry file="file://$USER_HOME$/新建文件夹/css.html" />
+    <entry file="file://$USER_HOME$/json/init.json" />
+    <entry file="file://$PROJECT_DIR$/js/lyindex.js" />
+    <entry file="file://$PROJECT_DIR$/js/websocket.js" />
+    <entry file="file://$PROJECT_DIR$/list/js/listwebsocket.js" />
+    <entry file="file://H:/json/init.json" />
+    <entry file="file://G:/json/new.json" />
+    <entry file="file://G:/json/gift.json" />
+    <entry file="file://G:/json/style.json" />
+    <entry file="file://G:/json/join.json" />
+    <entry file="file://G:/json/info.json" />
+    <entry file="file://G:/json/follow.json" />
+    <entry file="file://G:/json/danmu.json" />
+    <entry file="file://G:/json/init.json" />
+    <entry file="file://$PROJECT_DIR$/../json/new.json" />
+    <entry file="file://$PROJECT_DIR$/../json/style.json" />
+    <entry file="file://$USER_HOME$/node_modules/vue/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/%E5%BC%82%E6%AD%A5Script%E5%8A%A0%E8%BD%BD/异步Script加载/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/chatroom/chatroom/package.json" />
+    <entry file="file://$PROJECT_DIR$/../json/gift.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" column="624" lean-forward="false" selection-start-line="36" selection-start-column="624" selection-end-line="36" selection-end-column="624" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../json/join.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1422">
+          <caret line="1591" column="0" lean-forward="false" selection-start-line="1591" selection-start-column="0" selection-end-line="1591" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/673781337/FileRecv/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+>>>>>>> ‘第二次修改’
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/list/js/listwebsocket.js" />
     <entry file="file://H:/json/init.json" />
     <entry file="file://G:/json/new.json" />
@@ -510,18 +895,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+=======
+    <entry file="file://$PROJECT_DIR$/list/list.html" />
+    <entry file="file://H:/气泡弹框/js/websocket.js" />
+    <entry file="file://H:/气泡弹框/lyindex.html" />
+    <entry file="file://$PROJECT_DIR$/../json/danmu.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../json/new color.html" />
+    <entry file="file://$PROJECT_DIR$/../json/follow.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="21" />
+>>>>>>> ‘第二次修改’
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$USER_HOME$/Downloads/%E5%BC%82%E6%AD%A5Script%E5%8A%A0%E8%BD%BD/异步Script加载/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
           <caret line="32" column="6" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="32" selection-end-column="6" />
+=======
+    <entry file="file://$PROJECT_DIR$/../json/init.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5975">
+          <caret line="239" column="6" lean-forward="false" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
+>>>>>>> ‘第二次修改’
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -533,18 +943,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+=======
+    <entry file="file://$PROJECT_DIR$/new.html" />
+    <entry file="file://$PROJECT_DIR$/展示功能列表的主页面.html" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#3417#3625#0" expanded="false" />
+            <element signature="e#3655#3738#0" expanded="false" />
+            <element signature="e#3773#3861#0" expanded="false" />
+            <element signature="e#3895#4136#0" expanded="false" />
+            <element signature="e#4169#6863#0" expanded="false" />
+            <element signature="e#4278#6833#0" expanded="false" />
+            <element signature="e#6899#12615#0" expanded="false" />
+            <element signature="e#9821#12604#0" expanded="false" />
+            <element signature="e#12722#16580#0" expanded="false" />
+            <element signature="e#16645#18306#0" expanded="false" />
+            <element signature="e#18369#19547#0" expanded="false" />
+            <element signature="e#19612#20949#0" expanded="false" />
+            <element signature="e#21037#26199#0" expanded="false" />
+            <element signature="e#26255#28841#0" expanded="false" />
+            <element signature="e#28896#31445#0" expanded="false" />
+            <element signature="e#31497#33966#0" expanded="false" />
+            <element signature="e#34044#39365#0" expanded="false" />
+            <element signature="e#39422#44670#0" expanded="false" />
+            <element signature="e#44747#49822#0" expanded="false" />
+            <element signature="e#49881#51702#0" expanded="false" />
+            <element signature="e#51755#55842#0" expanded="false" />
+            <element signature="e#55895#56197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../json/info.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+>>>>>>> ‘第二次修改’
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/list/css/list.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="25">
           <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+=======
+        <state relative-caret-position="1025">
+          <caret line="41" column="24" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+>>>>>>> ‘第二次修改’
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/list/list.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -556,10 +1011,26 @@
             <element signature="e#2298#4262#0" expanded="false" />
             <element signature="e#7469#8271#0" expanded="false" />
             <element signature="e#8310#9161#0" expanded="false" />
+=======
+    <entry file="file://$PROJECT_DIR$/../json/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2000">
+          <caret line="80" column="24" lean-forward="false" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="24" />
+          <folding>
+            <element signature="e#12449#13721#0" expanded="false" />
+            <element signature="e#13745#14317#0" expanded="false" />
+            <element signature="e#14338#28833#0" expanded="false" />
+            <element signature="e#17592#19161#0" expanded="false" />
+            <element signature="e#19188#19971#0" expanded="false" />
+            <element signature="e#19997#20777#0" expanded="false" />
+            <element signature="e#20800#21571#0" expanded="false" />
+            <element signature="e#28843#43110#0" expanded="false" />
+>>>>>>> ‘第二次修改’
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/../json/danmu.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -594,6 +1065,78 @@
             <element signature="e#9752#10257#0" expanded="false" />
             <element signature="e#11339#11798#0" expanded="false" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="141" column="35" lean-forward="false" selection-start-line="141" selection-start-column="35" selection-end-line="141" selection-end-column="35" />
+          <folding>
+            <element signature="e#3417#3625#0" expanded="false" />
+            <element signature="e#3655#3738#0" expanded="false" />
+            <element signature="e#3773#3861#0" expanded="false" />
+            <element signature="e#3895#4136#0" expanded="false" />
+            <element signature="e#4169#6863#0" expanded="false" />
+            <element signature="e#4278#6833#0" expanded="false" />
+            <element signature="e#6899#12615#0" expanded="false" />
+            <element signature="e#9821#12604#0" expanded="false" />
+            <element signature="e#12722#16580#0" expanded="false" />
+            <element signature="e#16645#18306#0" expanded="false" />
+            <element signature="e#18369#19547#0" expanded="false" />
+            <element signature="e#19612#20949#0" expanded="false" />
+            <element signature="e#21037#26199#0" expanded="false" />
+            <element signature="e#26255#28841#0" expanded="false" />
+            <element signature="e#28896#31445#0" expanded="false" />
+            <element signature="e#31497#33966#0" expanded="false" />
+            <element signature="e#34044#39365#0" expanded="false" />
+            <element signature="e#39422#44670#0" expanded="false" />
+            <element signature="e#44747#49822#0" expanded="false" />
+            <element signature="e#49881#51702#0" expanded="false" />
+            <element signature="e#51755#55842#0" expanded="false" />
+            <element signature="e#55895#56197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="264" column="46" lean-forward="false" selection-start-line="264" selection-start-column="46" selection-end-line="264" selection-end-column="46" />
+          <folding>
+            <element signature="e#5544#5830#0" expanded="false" />
+            <element signature="e#6141#6238#0" expanded="false" />
+            <element signature="e#6280#6382#0" expanded="false" />
+            <element signature="e#6423#6706#0" expanded="false" />
+            <element signature="e#6746#9755#0" expanded="false" />
+            <element signature="e#6876#9711#0" expanded="false" />
+            <element signature="e#9798#16123#0" expanded="false" />
+            <element signature="e#13028#16105#0" expanded="false" />
+            <element signature="e#16258#20552#0" expanded="false" />
+            <element signature="e#20631#22495#0" expanded="false" />
+            <element signature="e#22572#23897#0" expanded="false" />
+            <element signature="e#23976#25467#0" expanded="false" />
+            <element signature="e#25583#31400#0" expanded="false" />
+            <element signature="e#31470#34545#0" expanded="false" />
+            <element signature="e#34614#37471#0" expanded="false" />
+            <element signature="e#37537#40314#0" expanded="false" />
+            <element signature="e#40413#46406#0" expanded="false" />
+            <element signature="e#46477#52397#0" expanded="false" />
+            <element signature="e#52495#58242#0" expanded="false" />
+            <element signature="e#58315#60367#0" expanded="false" />
+            <element signature="e#60434#65067#0" expanded="false" />
+            <element signature="e#65134#65478#0" expanded="false" />
+            <element signature="e#70482#71465#0" expanded="false" />
+            <element signature="e#71504#72550#0" expanded="false" />
+            <element signature="e#72591#73218#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+>>>>>>> ‘第二次修改’
         </state>
       </provider>
     </entry>
